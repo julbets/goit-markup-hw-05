@@ -414,6 +414,21 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-wrapper">
+            <p class="subscribe-text">Subscribe</p>
+            <form class="subscribe-form">
+                <label class="subscribe-form-label" for="subscribe_email">
+                    <input class="subscribe-form-input" type="email" name="subscribe_email" id="subscribe_email" placeholder="E-mail" required>
+            </label>
+            <div class="sudscribe-button-wrapper">
+            <button class="subscribe-btn" type="submit">Subscribe
+                    <svg class="subscribe-btn-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-subscribe"></use>
+                </svg>
+            </button>
+        </div>
+            </form>
+        </div>
         </div>
     </footer>
     <div class="backdrop is-open">
@@ -460,8 +475,13 @@
                 <textarea class="contacts-form-message" name="user_comment" id="user_comment" placeholder="Text input"></textarea>
              </div>
              <div class="contacts-form-checkbox-wrapper">
-                <input class="contacts-form-checkbox" type="checkbox" name="user_policy" id="user_policy" value="true" required>
+                <input class="contacts-form-checkbox visually-hidden" type="checkbox" name="user_policy" id="user_policy" value="true" required>
                 <label class="contacts-form-checkbox-label" for="user_policy">
+                    <span class="contacts-form-own-checkbox">
+                        <svg class="contacts-form-own-checkbox-icon">
+                            <use href="./images/icons.svg#icon-checkmark" width="10" height="8"></use>
+                        </svg>
+                    </span>
                     I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a>
                 </label>
              </div>
