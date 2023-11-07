@@ -434,7 +434,7 @@
     <div class="backdrop is-open">
         <div class="modal">
             <button class="modal-close-btn" type="button">
-                <svg class="modal-close-btn-icon" width="24" height="24" aria-label="modal close button">
+                <svg class="modal-close-btn-icon" width="8" height="8" aria-label="modal close button">
                     <use href="./images/icons.svg#icon-close">
                     </use>
                 </svg>
@@ -444,10 +444,10 @@
             </p>
             <form class="contacts-form">
             <div class="contacts-form-field-wrapper">
-                <label class="contacts-form-field-label" for="user-first-name">Name</label>
+                <label class="contacts-form-field-label" for="user-name">Name</label>
                 <div class="contacts-form-input-wrapper">
-                <input class="contacts-form-field" type="text" name="user-first-name" id="user-first-name" required pattern="[a-zA-Zа-яА-ЯшШїЇєЄґҐйЙ']+" title="Yuliia">
-                <svg class="contacts-form-field-icon" width="18" height="18">
+                <input class="contacts-form-field" type="text" name="user-name" id="user-name" required pattern="[a-zA-Zа-яА-ЯшШїЇєЄґҐйЙ']+" title="Yuliia">
+                <svg class="contacts-form-field-icon" width="18" height="24">
                     <use href="./images/icons.svg#icon-person"></use>
                 </svg>
             </div>
@@ -470,13 +470,13 @@
                 </svg>
             </div>
         </div>
-            <div class="contacts-form-field-wrapper">
-                <label class="contacts-form-field-label" for="user_comment" >Comment</label>
-                <textarea class="contacts-form-message" name="user_comment" id="user_comment" placeholder="Text input"></textarea>
+            <div class="contacts-form-message-wrapper">
+                <label class="contacts-form-field-label" for="user-comment" >Comment</label>
+                <textarea class="contacts-form-message" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
              </div>
              <div class="contacts-form-checkbox-wrapper">
-                <input class="contacts-form-checkbox visually-hidden" type="checkbox" name="user_policy" id="user_policy" value="true" required>
-                <label class="contacts-form-checkbox-label" for="user_policy">
+                <input class="contacts-form-checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" required>
+                <label class="contacts-form-checkbox-label" for="user-privacy">
                     <span class="contacts-form-own-checkbox">
                         <svg class="contacts-form-own-checkbox-icon">
                             <use href="./images/icons.svg#icon-checkmark" width="10" height="8"></use>
@@ -489,6 +489,7 @@
                 Send
              </button>
         </form>
+    </div>
     </div>
 </body>
 
