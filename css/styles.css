@@ -470,6 +470,7 @@ footer .logotype {
 footer .container {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 .footer-social-media-text {
@@ -516,6 +517,7 @@ padding: 8px;
 .subscribe-form {
     display: flex;
     gap: 24px;
+    
 
 }
 
